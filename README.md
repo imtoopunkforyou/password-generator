@@ -9,8 +9,7 @@ Cryptographic password generator for the command line.
 ## Installation
 1. Download the script:
 ```bash
-TODO
-curl -O ...
+curl -O https://raw.githubusercontent.com/imtoopunkforyou/password-generator/refs/heads/main/password-generator.sh
 ```
 
 2. Make executable:
