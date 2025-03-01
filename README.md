@@ -30,7 +30,7 @@ sudo mv password-generator.sh /usr/local/bin/pwgen
 
 - Custom character set (ASCII letters and numbers):
 ```bash
-./password-generator.sh --length 16 --charset 'a-zA-Z0-9'
+./password-generator.sh --length 16 --charset "a-zA-Z0-9"
 ```
 
 - Show help:
@@ -41,14 +41,14 @@ sudo mv password-generator.sh /usr/local/bin/pwgen
 ## Alias Setup
 Add to your shell configuration (.bashrc/.zshrc):
 ```bash
-alias genpass='/path/to/password-generator.sh --length'
+alias genpass="/path/to/password-generator.sh --length"
 ```
 Usage with alias:
 ```bash
 genpass 14  # Generates 14-character password
 ```
 ```bash
-genpass 8 --charset 'A-Za-z'  # Letters only
+genpass 8 --charset "A-Za-z"  # Letters only
 ```
 
 ## Command-line options
