@@ -1,5 +1,9 @@
 # Password Generator
 Cryptographic password generator for the command line.
+```bash
+~ > genpass 32
+aaWXrQLSB0K1xmmV7JoQJ3Qz9HbwMEno
+```
 
 ## Installation
 1. Download the script:
@@ -30,7 +34,7 @@ alias genpass="/path/to/password-generator.sh --length"
 ```
 Usage with alias:
 ```bash
-genpass 14  # Generates 14-character password
+genpass 8  # Generates 8-character password
 ```
 ```bash
 genpass 8 --charset "A-Za-z"  # Letters only
