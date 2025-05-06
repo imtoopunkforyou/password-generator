@@ -43,6 +43,6 @@ genpass 8 --charset "A-Za-z"  # Letters only
 ## Command-line options
 | Option          | Description                      | Required |
 |-----------------|----------------------------------|----------|
-| -l, --length    | Password length (4-64)           | No       |
+| -l, --length    | Password length (4-64)           | Yes      |
 | -c, --charset   | Custom tr-compatible pattern     | No       |
 | -h, --help      | Show usage information           | No       |
